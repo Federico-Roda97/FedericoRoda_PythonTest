@@ -1,0 +1,84 @@
+# =========================
+# Python / FastAPI
+# =========================
+
+# Virtual environment
+.venv/
+venv/
+env/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+
+# Logs
+*.log
+
+# Environment variables
+.env
+.env.*
+
+# IDE
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Mypy
+.mypy_cache/
+
+# Ruff
+.ruff_cache/
+
+# =========================
+# React / Node.js
+# =========================
+
+# Node modules
+node_modules/
+
+# Build output
+dist/
+build/
+
+# Vite
+.vite/
+
+# npm / yarn logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Package manager cache
+.pnpm-store/
+
+# Coverage
+coverage/
+
+# =========================
+# Misc
+# =========================
+
+# Temporary files
+*.tmp
+*.temp
+
+# SQLite
+*.sqlite3
+
+# Mac
+.AppleDouble
+.LSOverride
