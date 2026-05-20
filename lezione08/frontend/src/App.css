@@ -1,0 +1,54 @@
+.login {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+
+  padding: 20px;
+  margin: 20px;
+
+  border: 1px solid hsla(0, 0%, 100%, 10%);
+  border-radius: 20px;
+
+  box-shadow: 0 5px 20px hsla(330, 100%, 50%, 20%);
+}
+
+.login button {
+  padding: 5px;
+  border-radius: 20px;
+  border: none;
+  background: hsl(320, 50%, 40%);
+
+  cursor: pointer;
+}
+
+.login input {
+  border: none;
+  border-bottom: 1px solid white;
+  background: transparent;
+}
+
+.messages {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 50px 5%;
+}
+
+.message {
+  background: hsl(300, 20%, 20%);
+  padding: 10px;
+
+  border-radius: 10px;
+
+  text-align: left;
+}
+
+.message:nth-child(2n+1) {
+  background: green;
+  text-align: right;
+}
+
+.message h3 {
+  margin: 0;
+  font-size: 10px;
+}
